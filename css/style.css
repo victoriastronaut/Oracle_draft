@@ -1,3 +1,4 @@
+/*toto*/
 @font-face {
     font-family: 'suisse_intlmedium';
     src: url('../typeface/suisseintl-medium-webfont.woff2') format('woff2'),
@@ -19,7 +20,7 @@
 
 body {
 	color: black;
-	background-color: white;	
+	background-color: white;
 }
 
 
@@ -54,7 +55,7 @@ span {
 }
 
 span a {
-	color: rgba(0,255,0) !important; 
+	color: rgba(0,255,0) !important;
 }
 
 .project {
@@ -104,12 +105,9 @@ span a {
 
 #canvas {
 			position: absolute;
-			max-width: 100%;  
+			max-width: 100%;
 			height: auto;
 			margin: auto;
 			//left: 20%;
 			margin-left: 20px;
 		}
-
-
-
