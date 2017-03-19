@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'suisse_intlmedium';
+    src: url('../typeface/suisseintl-medium-webfont.woff2') format('woff2'),
+         url('../typeface/suisseintl-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: 'suisse_intlmedium';
+	font-size: 120%;
+	text-shadow: 2px 2px 5px #00FCFF;
+}
+
+
+
+body {
+	color: black;
+	background-color: white;	
+}
+
+
+a {
+	color: rgba(0,255,0);
+}
+
+a:visited {
+	color: rgba(0,255,0);
+}
+
+a:hover {
+	color: rgba(255,0,0);
+}
+
+a:click: {
+	color: rgba(0,0,255);
+}
+
+.text-container {
+	position: absolute;
+	display: block;
+	width: 90%;
+	margin: auto;
+	padding-top: 20%;
+
+}
+
+span {
+	clear: both;
+	float: left;
+}
+
+span a {
+	color: rgba(0,255,0) !important; 
+}
+
+.project {
+	clear: none;
+	float: left;
+
+}
+
+.text {
+	position: relative;
+	display: block;
+	width: auto;
+	margin: 0;
+	height: auto;
+	float: left;
+}
+
+.textarea	{
+	max-width:768px;
+	width:100%;
+	min-height:300px;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:125%;
+	border:2px solid #eee;
+	outline:0;
+	resize:none;
+	overflow:auto;
+	word-wrap:break-word;
+	-webkit-appearance: none;}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+
+
+.doubleclick:hover {
+	animation: none;
+	color: rgb(0,255,0);
+}
+
+
+
+#canvas {
+			position: absolute;
+			max-width: 100%;  
+			height: auto;
+			margin: auto;
+			//left: 20%;
+			margin-left: 20px;
+		}
+
+
+
